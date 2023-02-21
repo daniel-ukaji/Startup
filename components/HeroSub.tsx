@@ -5,7 +5,7 @@ import smallPictures from '../images/smallPictures.png'
 
 function HeroSub() {
   return (
-    <section className='bg-[#FFF8F0] pb-10'>
+    <section className='bg-[#FFF8F0] pb-32'>
         <div className='flex max-w-6xl mx-auto justify-between'>
             <div className='flex flex-col justify-center pt-32'>
                 <h1 className='text-5xl font-bold max-w-md pb-10 font-Poppins'>Discover your dream Startup</h1>
