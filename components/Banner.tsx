@@ -9,12 +9,12 @@ import Zendesk from '../images/Zendesk.png'
 function Banner() {
   return (
     <section>
-        <div className='flex max-w-3xl mx-auto'>
-            <Image alt='' src={ServiceNow} className='h-44 w-44 object-contain' />
-            <Image alt='' src={Paychex} className='h-44 w-44 object-contain' />
-            <Image alt='' src={Github} className='h-44 w-44 object-contain' />
-            <Image alt='' src={Stripe} className='h-44 w-44 object-contain' />
-            <Image alt='' src={Zendesk} className='h-44 w-44 object-contain' />
+        <div className='flex'>
+            <Image alt='' src={ServiceNow} className='h-28 w-28  object-contain' />
+            <Image alt='' src={Paychex} className='h-28 w-28 object-contain' />
+            <Image alt='' src={Github} className='h-28 w-28 object-contain' />
+            <Image alt='' src={Stripe} className='h-28 w-28 object-contain' />
+            <Image alt='' src={Zendesk} className='h-28 w-28 object-contain' />
         </div>
     </section>
   )

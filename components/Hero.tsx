@@ -2,12 +2,13 @@ import Image from 'next/image'
 import React from 'react'
 import globe from '../images/globe.png'
 import { Player } from '@lottiefiles/react-lottie-player'
+import Banner from './Banner'
 
 function Hero() {
   return (
     <section>
-        <div className='flex max-w-6xl mx-auto justify-between  space-x-20'>
-            <div className='flex flex-col justify-center pt-18'>
+        <div className='flex max-w-6xl mx-auto justify-between  space-x-20 '>
+            <div className='flex flex-col justify-center pt-18 '>
                 <p className='text-5xl font-black max-w-xl pb-5 font-Poppins tracking-normal leading-[1.35]'>A marketplace for startups in Africa</p>
                 <p className='max-w-md font-Poppins text-sm leading-relaxed'>Lorem ipsum dolor sit amet consectetur elit. Maxime mollitia, molestiae quas ve</p>
                 
@@ -19,7 +20,7 @@ function Hero() {
             {/* <div className='relative w-1/2 h-96 mt-32 '>
                 <Image alt='' src={globe} layout='fill' objectFit='contain' />
             </div> */}
-            <div>
+            <div className=''>
                 <Player 
                     src="https://lottie.host/9328bc2e-fc80-4bfd-a4d9-767513bf3102/Z4fcO3pGVf.json"
                     className='player'
@@ -28,6 +29,10 @@ function Hero() {
                     speed={5}
                 />
             </div>
+        </div>
+        <div className='max-w-6xl mx-auto'>
+            <p className='font-Poppins font-semibold'>Our Trusted sponsors</p>
+            <Banner />
         </div>
     </section>
   )
