@@ -11,7 +11,7 @@ function HeroSubSub() {
                 <Image alt='' src={Dashboard} layout='fill' objectFit='contain' />
             </div>
             <div className='flex flex-col justify-center pt-32'>
-                <h1 className='text-[2.5rem] font-bold max-w-md pb-7 leading-tight font-Poppins'>Sell quickly, easily, and from anywhere</h1>
+                <h1 className='text-5xl font-bold max-w-lg pb-7 leading-tight font-Poppins'>Sell quickly, easily, and from anywhere</h1>
                 <p className='max-w-sm font-Poppins text-sm text-gray-600'>No need to worry about your files being lost because we are very loyal to be your storage platform.</p>
                 <div className='flex items-center space-x-5'>
                     <Image alt='' src={smallPictures} className='w-16 h-16 object-contain' />
