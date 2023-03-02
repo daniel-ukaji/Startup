@@ -20,7 +20,7 @@ function HeroNew() {
             {/* <div className='relative w-1/2 h-96 mt-32 '>
                 <Image alt='' src={globe} layout='fill' objectFit='contain' />
             </div> */}
-            <div className='h-96 w-96 md:w-2/3'>
+            <div className='md:w-2/3'>
                 <Player 
                     src="https://lottie.host/9328bc2e-fc80-4bfd-a4d9-767513bf3102/Z4fcO3pGVf.json"
                     className='player '

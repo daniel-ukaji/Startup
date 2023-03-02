@@ -15,7 +15,7 @@ import HeroNew from '../components/HeroNew'
 
 const Home: NextPage = () => {
   return (
-    <div className="">
+    <div className="max-w-[100%]">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />

@@ -18,7 +18,7 @@ function HeroSub() {
                     <a href="#" className='border pt-3 pb-3 pl-10 pr-10 rounded-lg cursor-pointer bg-[#152C5B] text-white font-Poppins'>Try for Free</a>
                 </div>
             </div>
-            <div className='relative w-[28rem] md:w-1/2 h-96 mt-20'>
+            <div className='relative w-[70%] md:w-1/2 h-96 mt-20'>
                 <Image alt='' src={Dashboard} layout='fill' objectFit='contain' />
             </div>
         </div>

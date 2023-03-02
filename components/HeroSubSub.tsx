@@ -7,7 +7,7 @@ function HeroSubSub() {
   return (
     <section className='pb-32'>
         <div className='flex flex-col-reverse md:flex-row max-w-6xl mx-auto justify-between items-center'>
-            <div className='relative w-[28rem] md:w-1/2 h-96 mt-20'>
+            <div className='relative w-[70%] md:w-1/2 h-96 mt-20'>
                 <Image alt='' src={Dashboard} layout='fill' objectFit='contain' />
             </div>
             <div className='flex flex-col justify-center pt-32 items-center md:items-start'>
