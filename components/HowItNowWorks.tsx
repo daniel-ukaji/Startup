@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import HowItWork from '../images/HowItWork.png'
 
-function HowItWorks() {
+function HowItNowWorks() {
   return (
     <section>
         <div className='pb-32 pt-24'>
@@ -11,7 +11,7 @@ function HowItWorks() {
                 <p className='font-Poppins text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas ven</p>
             </div>
         <div className='flex justify-center items-center mt-14'>
-            <Image src={HowItWork} alt='' className='h-96 w-[28rem] md:w-3/4 object-contain' />
+            <Image src={HowItWork} alt='' className='h-96 w-3/4 object-contain' />
         </div>
             
         </div>
@@ -19,4 +19,4 @@ function HowItWorks() {
   )
 }
 
-export default HowItWorks
+export default HowItNowWorks

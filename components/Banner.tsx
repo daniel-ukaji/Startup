@@ -10,11 +10,11 @@ function Banner() {
   return (
     <section>
         <div className='flex'>
-            <Image alt='' src={ServiceNow} className='h-28 w-28  object-contain' />
-            <Image alt='' src={Paychex} className='h-28 w-28 object-contain' />
-            <Image alt='' src={Github} className='h-28 w-28 object-contain' />
-            <Image alt='' src={Stripe} className='h-28 w-28 object-contain' />
-            <Image alt='' src={Zendesk} className='h-28 w-28 object-contain' />
+            <Image alt='' src={ServiceNow} className='md:h-28 md:w-28 h-20 w-20  object-contain' />
+            <Image alt='' src={Paychex} className='md:h-28 md:w-28 h-20 w-20 object-contain' />
+            <Image alt='' src={Github} className='md:h-28 md:w-28 h-20 w-20 object-contain' />
+            <Image alt='' src={Stripe} className='md:h-28 md:w-28 h-20 w-20 object-contain' />
+            <Image alt='' src={Zendesk} className='md:h-28 md:w-28 h-20 w-20 object-contain' />
         </div>
     </section>
   )

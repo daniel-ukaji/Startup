@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Header() {
@@ -9,7 +10,7 @@ function Header() {
             </div>
             <div className='space-x-7 text-gray-600 font-Poppins text-xs tracking-wider'>
                 <a href="" className=''>Home</a>
-                <a href="">About us</a>
+                <Link href="NewPage">About us</Link>
                 <a href="">Services</a>
                 <a href="">Customer</a>
                 <a href="">Pricing</a>

@@ -10,6 +10,8 @@ import HeroSubSub from '../components/HeroSubSub'
 import FooterBanner from '../components/FooterBanner'
 import Footer from '../components/Footer'
 import FooterSub from '../components/FooterSub'
+import NavBar from '../components/NavBar'
+import HeroNew from '../components/HeroNew'
 
 const Home: NextPage = () => {
   return (
@@ -20,8 +22,8 @@ const Home: NextPage = () => {
       </Head>
 
       <div className='bg-gradient-to-r from-white to-[#E3F8FF]'>
-        <Header />
-        <Hero />
+        <NavBar />
+        <HeroNew />
       </div>
       {/* <Banner /> */}
       <HowItWorks />

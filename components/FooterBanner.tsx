@@ -10,7 +10,7 @@ function FooterBanner() {
           <Image src={bannerTwo} alt='#' className='h-80 min-w-[300px] object-cover rounded-2xl' />
         </div>
 
-        <div className='absolute top-14 right-1/3 xl:top-14 xl:right-1/3 flex flex-col justify-center items-center space-y-10'>
+        <div className='absolute top-14 left-10 right-1 md:top-14 md:right-1/3 xl:top-14 xl:right-1/3 flex flex-col justify-center items-center space-y-10'>
             <p className='font-Poppins text-white pt-16 font-bold text-2xl'>Our Solution For Your Business</p>
             <a href="#" className='font-Poppins mt-10 pt-2 pb-2 pl-6 pr-6 rounded-md cursor-pointer bg-[#152C5B] text-white'>Try for Free</a>
         </div>
