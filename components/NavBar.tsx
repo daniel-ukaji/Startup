@@ -10,7 +10,7 @@ function NavBar() {
             <div className="flex justify-between items-center mb-5 md:mb-0">
                 <p className='font-bold font-Poppins'>Upstart.com</p>
                 <div onClick={() => setOpen(!open)}>
-                    <AiOutlineMenu  className='cursor-pointer md:hidden text-3xl' />
+                    <AiOutlineMenu  className='cursor-pointer md:hidden text-3xl mr-5' />
                 </div>
             </div>
             
